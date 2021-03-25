@@ -1,0 +1,113 @@
+[{
+        "naam": "Beef & Liberty",
+        "type voedsel": "Anglo-Amerikaans",
+        "omschrijving": "Uitgerust met BBQ en grillplaat",
+        "afbeelding": "./assets/HongKongFoodTruck.jpg",
+        "bron": "//commons.wikimedia.org/wiki/User:Oxfordian_Kissuth",
+        "auteur": "Oxfordian Kissuth",
+        "geselecteerd": "0",
+        "ingredienten": "Beef",
+        "keuken": "BBQ",
+        "prijs": "€€",
+        "events": "grotere brederieen, festivals",
+        "capaciteit": "120",
+        "bijzonderheden": "met verlichting",
+        "KvK": "1007893",
+        "nodig": "elektriciteit aansluiting"
+    },
+
+    {
+        "naam": "Mini Van",
+        "type voedsel": "Aziatisch",
+        "omschrijving": "past in een verhuiswagen",
+        "afbeelding": "./assets/RoastedChicken.jpg",
+        "bron": "//commons.wikimedia.org/wiki/User:%E7%8E%84%E5%8F%B2%E7%94%9F",
+        "auteur": "User:玄史生",
+        "geselecteerd": "0",
+        "ingredienten": "gevogelte, koe, varken",
+        "keuken": "Thais",
+        "prijs": "€",
+        "events": "markt, braderie",
+        "capaciteit": "60",
+        "bijzonderheden": "past in een verhuiswagen, kan naar het buitenland",
+        "KvK": "57923309",
+        "nodig": "heeft geen elektriciteit nodig"
+
+    },
+
+    {
+        "naam": "Coffee Break",
+        "type voedsel": "Coffee",
+        "omschrijving": "Koffie, zoete en hartige hap",
+        "afbeelding": "./assets/FoodTruckLondon.jpg",
+        "bron": "https://en.wikipedia.org/wiki/File:Food_truck_in_London.jpg",
+        "auteur": "Oxfordian Kissuth",
+        "geselecteerd": "0",
+        "ingredienten": "Koffie, suiker,melk",
+        "keuken": "Europees",
+        "prijs": "€",
+        "events": "Urban",
+        "capaciteit": "200",
+        "bijzonderheden": "vaste standplaats, bij voorkeur in de buurt van publiekstrekker",
+        "KvK": "37705679",
+        "nodig": "elektriciteit aansluiting, water"
+
+    },
+
+    {
+        "naam": "Chicken Car",
+        "type voedsel": "Aziatisch",
+        "omschrijving": "volledig geoutilleerd met frituurpan, grillplaat en wok",
+        "afbeelding": "./assets/FoodtruckChina.jpg",
+        "bron": "https://en.wikipedia.org/wiki/File:Chinese-food_truck_in_Noum%C3%A9a,_New_Caledonia,_2011.jpgF",
+        "auteur": "George Louis",
+        "geselecteerd": "0",
+        "ingredienten": "gevogelte, rijst, groente",
+        "keuken": "Chinees",
+        "prijs": "€",
+        "events": "Urban",
+        "capaciteit": "100",
+        "bijzonderheden": "verlichting, standplaats bij voorkeur in de buurt van park",
+        "KvK": "20209554",
+        "nodig": "elektriciteit aansluiting, water"
+
+    },
+
+    {
+        "naam": "Taco Monster",
+        "type voedsel": "Latino",
+        "omschrijving": "Nostyalgisch '70 er jaren van",
+        "afbeelding": "./assets/TacoTruckStLouis.jpg",
+        "bron": "https://en.wikipedia.org/wiki/File:Taco_Truck_St_Louis_MO.jpg",
+        "auteur": "George Sableman",
+        "geselecteerd": "0",
+        "ingredienten": "Mais, bonen, varkensvlees, gevogelte, kaas",
+        "keuken": "Mexicaans",
+        "prijs": "€€",
+        "events": "markten, braderieën, kleinere festivals",
+        "capaciteit": "60",
+        "bijzonderheden": "voor ",
+        "KvK": "57923309",
+        "nodig": "heeft geen elektriciteit nodig"
+
+    },
+
+    {
+        "naam": "Hippie Bus",
+        "type voedsel": "Coffee",
+        "omschrijving": "Met mobiel terras",
+        "afbeelding": "./assets/MobileCafeBrisbane.jpg",
+        "bron": "https://en.wikipedia.org/wiki/File:Mobile_cafe_in_South_Bank_Parklands,_Brisbane.jpeg",
+        "auteur": "Kgbo",
+        "geselecteerd": "0",
+        "ingredienten": "Koffie, melk, suiker, ijs",
+        "keuken": "Europees",
+        "prijs": "€",
+        "events": "strand, pretpark",
+        "capaciteit": "100",
+        "bijzonderheden": "kan in 15 minuten worden opgezet, makkelijk te verplaatsen",
+        "KvK": "9430405",
+        "nodig": "heeft geen aansluitingen nodig"
+
+    }
+]

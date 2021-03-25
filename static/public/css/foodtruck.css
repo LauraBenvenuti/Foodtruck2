@@ -1,0 +1,288 @@
+/* *::before *::after */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+/*------------------------*/
+/*           NAV          */
+/*------------------------*/
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*
+nav ul:first-child {
+    display: none;
+}
+*/
+
+nav ul:first-child li {
+    display: none;
+}
+
+nav ul:nth-child(2) {
+    height: 3.4em;
+    padding-top: .2em;
+}
+
+nav ul:nth-child(2) li:first-child {
+    max-width: 10em;
+    margin-right: auto;
+}
+
+nav ul:nth-child(2) li a#home {
+    font-style: italic;
+    font-size: 2.5em;
+    color: firebrick;
+    text-decoration: none;
+}
+
+nav ul:nth-child(2) li img {
+    width: 3em;
+}
+
+/*------------------------*/
+/*         HEADER         */
+/*------------------------*/
+
+main>header {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: firebrick;
+    color: white;
+    min-width: 360px;
+}
+
+main>header h1 {
+    font-size: 1.5em;
+    font-weight: 500;
+    width: 70vw;
+    padding-left: 3px;
+}
+
+main>header p {
+    font-size: 1.5em;
+    font-weight: 500;
+    width: auto;
+    border-left: 2px solid white;
+    padding-left: 3px;
+}
+
+/*------------------------*/
+/*       ARTICLES         */
+/*------------------------*/
+main>ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 30em);
+    grid-gap: .5rem;
+    justify-content: center;
+}
+
+main>ul li {
+    list-style: none;
+    justify-self: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    min-width: 320px;
+}
+
+main>ul li article {
+    padding: .3em 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+/*
+main > article {
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: .3em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+main > article img:first-child {
+    display:block;
+    width: 90%;
+    margin:auto;
+}
+
+*/
+article>header {
+    background-color: firebrick;
+    color: white;
+    text-align: center;
+}
+
+article ul {
+    border-top: 2px solid firebrick;
+    padding: 0 0 4px 2px;
+}
+
+article li {
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+li article header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+li article header img {
+    width: 10%;
+    height: auto;
+    /* min-width: */
+}
+
+li article header h2 {
+    font-size: 1.3em;
+    font-weight: 500;
+    color: firebrick;
+    width: 89%;
+}
+
+li article p {
+    padding-left: 2px;
+}
+
+li article figure {
+    width: 50%;
+}
+
+li article figure img {
+    min-width: 200px;
+    width: inherit;
+}
+
+li article figcaption {
+    color: firebrick;
+    font-size: 0.8em;
+}
+
+li article figcaption a {
+    color: firebrick;
+    font-size: 0.8em;
+}
+
+li article section {
+    width: 49%;
+    padding-left: 5px;
+}
+
+main>article {
+    height: 80vh;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin: .5rem;
+    padding: .3em 0;
+    display: grid;
+    grid-template-rows: 50% 1.5em 1fr 1fr;
+    grid-template-columns: 95%;
+    grid-gap: .52rem;
+    justify-content: center;
+}
+
+
+main>article img:first-child {
+    display: block;
+    height: 85%;
+    max-width: 90%;
+    margin: auto;
+}
+
+img#ster {
+    display: block;
+    /*    display: none;*/
+    width: 2em;
+    margin-left: auto;
+
+}
+
+/*------------------------*/
+/*        FOOTER          */
+/*------------------------*/
+
+footer ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding: 0.3em 0;
+}
+
+footer ul li {
+    list-style: none;
+}
+
+footer ul li img {
+    display: block;
+    height: 3em;
+}
+
+footer p {
+    margin-top: .5rem;
+    font-size: 0.9em;
+    font-weight: 100;
+    font-style: italic;
+    color: firebrick;
+}
+
+@media only screen and (min-width: 640px) {
+
+    /*------------------------*/
+    /*           NAV          */
+    /*------------------------*/
+
+    nav ul:first-child li:first-child {
+        display: none;
+    }
+
+    nav ul:first-child li {
+        display: block;
+        background-color: firebrick;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        border-left: 1px solid white;
+        border-right: 1px solid white;
+        width: 16.6%;
+        height: 1.1em;
+        font-size: 0.9em;
+        font-weight: 100;
+        font-style: italic;
+        text-align: center;
+    }
+
+    nav ul:first-child li.actual {
+        background-color: white;
+        border-left: 1px solid firebrick;
+        border-right: 1px solid firebrick;
+    }
+
+
+    nav ul:first-child li a {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav ul:first-child li.actual a {
+        color: firebrick;
+    }
+
+    nav ul:nth-child(2) li:first-child {
+        visibility: hidden;
+    }
+
+}
