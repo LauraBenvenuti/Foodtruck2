@@ -1,7 +1,7 @@
 const express = require('express')
 
 express()
-    .use('/static', express.static('static'))
+    .use('/static', express.static('static/public'))
     .get('/', onhome)
     .get('/about', onabout)
     .listen(1900)
@@ -9,12 +9,9 @@ express()
 
 function onhome(req, res) {
     res.send('<h1>Hello, Client!</h1>\n'+
-                '<img src="./static/public/icons/LookupIcon.png"/>')
+                '<img src="./static/icons/LookupIcon.png"/>')
 }
 
 function onabout(req, res) {
     res.send('<h1>About me</h1>\n')
 }
-
-
-
